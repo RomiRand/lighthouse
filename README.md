@@ -1,7 +1,7 @@
 # Lighthouse: Ethereum 2.0
 
-![GitHub-Mark-Light](https://svgshare.com/i/dxK.svg#gh-light-mode-only)
-![GitHub-Mark-Dark](https://simpleicons.org/icons/apple.svg#gh-dark-mode-only)
+![GitHub-Mark-Light](https://www.iconsdb.com/icons/preview/black/apple-xxl.png#gh-light-mode-only)
+![GitHub-Mark-Dark](https://www.iconsdb.com/icons/preview/white/apple-xxl.png#gh-dark-mode-only)
 
 An open-source Ethereum 2.0 client, written in Rust and maintained by Sigma Prime.
 
