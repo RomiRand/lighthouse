@@ -21,6 +21,7 @@ jobs:
         outputs:
             VERSION: ${{ steps.extract_version.outputs.VERSION }}
     build:
+        if: false
         name:   Build Release
         strategy:
             matrix:
