@@ -204,7 +204,7 @@ jobs:
 
             - name: Create Release Draft
               env:
-                  GITHUB_USER: sigp
+                  GITHUB_USER: RomiRand
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
               # The formatting here is borrowed from OpenEthereum: https://github.com/openethereum/openethereum/blob/main/.github/workflows/build.yml
@@ -259,8 +259,5 @@ jobs:
                   ENDBODY
                   )
                   assets=()
-                  for asset in ./lighthouse-*.tar.gz*; do
-                      assets+=("-a" "$asset/$asset")
-                  done
                   tag_name="${{ env.VERSION }}"
                   echo "$body" | hub release create --draft "${assets[@]}" -F "-" "$tag_name"
